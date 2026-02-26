@@ -4,6 +4,14 @@
 import react, { useState } from "react"
 
 const controlledForm = () => {
+    const[form, setForm]=useState({
+        name:" ",
+        email:" "
+    });
+
+    function handleChange (){
+        // setForm({...form, e.target.value:})
+    }
 
     const [formData, setFormData] = useState({
         name: " ",
